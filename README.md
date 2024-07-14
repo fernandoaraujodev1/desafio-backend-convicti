@@ -19,6 +19,7 @@ docker ps
 docker exec -it {container_id} bash
 cp .env.example .env
 php artisan key:generate
+composer install
 
 DB_CONNECTION=sqlite
 # DB_HOST=127.0.0.1
